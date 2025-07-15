@@ -21,8 +21,8 @@ namespace BankingApp
 
           public string PrintAccountSummary()
           {
-               return "Account Summary: \n" + $"Customer - {customer}\n" +
-                       $"Account Number - {AccountNumber}\n" + $"Balance - {Balance}.";
+               return "Account Summary: \n" + $"Customer - {customer.FullName}\n" +
+                       $"Account Number - {AccountNumber}\n" + $"Balance - {(float)Balance}";
           }
      }
 }

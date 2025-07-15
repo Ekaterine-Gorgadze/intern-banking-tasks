@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using BankingApp;
+using System.Globalization;
 
 class Program
 {
@@ -31,6 +32,37 @@ class Program
                }
           } while (!isValid);
 
-           
+          bool isValidDate = false;
+          DateTime customerBirthday;
+
+          do
+          {
+               Console.Write("Enter Customer Date Of Birth (dd-MM-yyyy): ");
+               string dateInput = Console.ReadLine();
+
+               if (DateTime.TryParseExact(dateInput, "dd-MM-yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out customerBirthday))
+               {
+                    if (customerBirthday <= DateTime.Today)
+                    {
+                         isValidDate = true;
+                    }
+                    else
+                    {
+                         Console.WriteLine("Invalid input, date can not be in the future.");
+                    }
+               }
+               else
+               {
+                    Console.WriteLine("Invalid date input format, try again.");
+               }
+
+          } while (!isValidDate);
+
+          Customer c1 = new Customer(customerName, customerEmail, customerBirthday);
+          BankAccount b1 = new BankAccount(c1, (float)initialDeposit);
+
+          Console.Write(b1.PrintAccountSummary());
+          Console.Write("\nPress any key to exit.");
+          Console.ReadKey();
      }
 }

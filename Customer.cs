@@ -19,7 +19,7 @@ namespace BankingApp
           {
                return $"Customer Information Summary: \n" +
                       $"Customer Id - {CustomerId}\n" + $"Customer Name - {FullName}\n" +
-                      $"Customer Email - {EmailAddress}\n" + $"Customer Birthdate - {DateOfBirth:dd-mm-yyyy}";
+                      $"Customer Email - {EmailAddress}\n" + $"Customer Birthdate - {DateOfBirth:dd-MM-yyyy}";
           }
 
           public int getAge()
