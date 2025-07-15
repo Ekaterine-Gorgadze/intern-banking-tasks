@@ -22,5 +22,13 @@ namespace BankingApp
                       $"Customer Email - {EmailAddress}\n" + $"Customer Birthdate - {DateOfBirth:dd-mm-yyyy}";
           }
 
+          public int getAge()
+          {
+               var today = DateTime.Today;
+               var age = today.Year - DateOfBirth.Year;
+               if (DateOfBirth.Date > today.Date) age--;
+               return age;
+          }
+
      }
 }
