@@ -12,3 +12,4 @@
 /Users/kato/Desktop/BankingApp/obj/Debug/net8.0/BankingApp.pdb
 /Users/kato/Desktop/BankingApp/obj/Debug/net8.0/BankingApp.genruntimeconfig.cache
 /Users/kato/Desktop/BankingApp/obj/Debug/net8.0/ref/BankingApp.dll
+/Users/kato/Desktop/BankingApp/obj/Debug/net8.0/BankingApp.sourcelink.json

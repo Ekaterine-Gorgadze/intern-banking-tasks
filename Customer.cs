@@ -7,9 +7,9 @@ namespace BankingApp
           public string EmailAddress { get; private set; }
           public DateTime DateOfBirth { get; private set; }
 
-          public Customer(Guid id, string name, string email, DateTime birthday)
+          public Customer(string name, string email, DateTime birthday)
           {
-               CustomerId = id;
+               //CustomerId = id;
                FullName = name;
                EmailAddress = email;
                DateOfBirth = birthday;
