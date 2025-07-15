@@ -1,0 +1,14 @@
+/Users/kato/Desktop/BankingApp/bin/Debug/net8.0/BankingApp
+/Users/kato/Desktop/BankingApp/bin/Debug/net8.0/BankingApp.deps.json
+/Users/kato/Desktop/BankingApp/bin/Debug/net8.0/BankingApp.runtimeconfig.json
+/Users/kato/Desktop/BankingApp/bin/Debug/net8.0/BankingApp.dll
+/Users/kato/Desktop/BankingApp/bin/Debug/net8.0/BankingApp.pdb
+/Users/kato/Desktop/BankingApp/obj/Debug/net8.0/BankingApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kato/Desktop/BankingApp/obj/Debug/net8.0/BankingApp.AssemblyInfoInputs.cache
+/Users/kato/Desktop/BankingApp/obj/Debug/net8.0/BankingApp.AssemblyInfo.cs
+/Users/kato/Desktop/BankingApp/obj/Debug/net8.0/BankingApp.csproj.CoreCompileInputs.cache
+/Users/kato/Desktop/BankingApp/obj/Debug/net8.0/BankingApp.dll
+/Users/kato/Desktop/BankingApp/obj/Debug/net8.0/refint/BankingApp.dll
+/Users/kato/Desktop/BankingApp/obj/Debug/net8.0/BankingApp.pdb
+/Users/kato/Desktop/BankingApp/obj/Debug/net8.0/BankingApp.genruntimeconfig.cache
+/Users/kato/Desktop/BankingApp/obj/Debug/net8.0/ref/BankingApp.dll
