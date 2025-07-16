@@ -24,5 +24,14 @@ namespace BankingApp
                return "Account Summary: \n" + $"Customer - {customer.FullName}\n" +
                        $"Account Number - {AccountNumber}\n" + $"Balance - {(float)Balance}";
           }
+
+          public void Deposit(float amount)
+          {
+               if (amount <= 0)
+               {
+                    throw new ArgumentException("Invalid input. The deposit has to be positive.");
+               }
+               Balance += amount;
+          }
      }
 }
