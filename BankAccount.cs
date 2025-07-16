@@ -29,7 +29,7 @@ namespace BankingApp
           {
                if (amount <= 0)
                {
-                    throw new ArgumentException("Invalid input. The deposit has to be positive.");
+                    throw new ArgumentException("Invalid input. The deposit has to be positive.", nameof(amount));
                }
                Balance += amount;
           }
